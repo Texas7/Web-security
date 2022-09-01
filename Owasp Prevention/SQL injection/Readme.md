@@ -15,7 +15,9 @@
 * Use o LIMIT nas queries do sql (restrinja os mecanismos de busca do sql, exemplo: campo login)
 * Não se contente apenas a essas informações
 
-#### In java:
+<br>
+
+#### In java (Sanitization):
 
 Utilize o PreparedStatement para separar os parâmetros enviados pelo usuário
 
