@@ -14,10 +14,13 @@
 ##### No arquivo header.php remova a seguinte linha
 ```
 <meta name=”generator” content=”WordPress <?php bloginfo(‘version’); ?>” />
-Ou adicione esse código em seu arquivo functions.php
+
+> Ou adicione esse código em seu arquivo functions.php
+
 <?php remove_action(‘wp_head’, ‘wp_generator’); ?>
-Proteja o arquivo “wp-config.php” através do .htaccess.
-Altere o diretório padrão de acesso administrador “wp-admin”.
+
+> Proteja o arquivo “wp-config.php” através do .htaccess.
+> Altere o diretório padrão de acesso administrador “The_name_admin”.
 ```
 11. Evite deixar arquivos importantes expostos.
 12. Coloque diretórios e arquivos mais sensíveis no robots.txt, para evitar Web crawling (spidering).
