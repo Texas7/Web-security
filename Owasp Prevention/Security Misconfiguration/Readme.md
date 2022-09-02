@@ -2,8 +2,6 @@
 
 <a href="https://owasp.org/Top10/A05_2021-Security_Misconfiguration/">Owasp Security Misconfiguration</a>
 
-#### Cuidados em:
-
 * Portas desnecessárias abertas/serviços desnecessários 
 * Usuários e privilégios desnecessários
 * Contas padrões habilitadas
