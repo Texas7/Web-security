@@ -9,7 +9,7 @@ cd /etc/php/<versão>/fpm/
 php.ini
 ```
 
-#### Recomendado alterar em ocasiões mt em especificas:
+#### Recomendado alterar em ocasiões muito especificas:
 
 ```
 php-fpm.conf
