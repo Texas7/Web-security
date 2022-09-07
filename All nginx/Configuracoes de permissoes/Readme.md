@@ -5,6 +5,8 @@
 
 deny <ip>
 
+
+
 > Permitir IPs da rede ou IPs específicos:
 
 allow <ip/24>
