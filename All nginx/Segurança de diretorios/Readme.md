@@ -7,7 +7,7 @@ apt install openssl      > É provável que o Ubuntu ja tenha vindo com o openss
 
 ```
 
-Passo 2:
+* Passo 2:
 
 ```
 openssl passwd <definir senha> 
@@ -15,7 +15,7 @@ openssl passwd <definir senha>
 > Será gerado um hash que será sua senha 
 > <br>Armazene o código pois ele será usado no próximo momento
 
-Passo 3:
+* Passo 3:
 
 ```
 cd /etc/nginx/
@@ -27,7 +27,7 @@ nano <nome do arquivo irá armazenar o usuário e senha>
 Definir_Usuário:código gerado pelo openssl
 ```
 
-Passo 4:
+* Passo 4:
 
 ```
 cd /etc/nginx/sites-enabled/
